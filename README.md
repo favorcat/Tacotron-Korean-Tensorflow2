@@ -5,6 +5,23 @@
 * tensorflow 2.0 이상
 * jamo
 
+### Environments
+- ubuntu 20.04
+- RTX 3070ti
+- Nvidia-driver-470
+- [CUDA 11.2](https://developer.nvidia.com/cuda-11.2.0-download-archive)
+- [cuDNN 8.1.1](https://developer.nvidia.com/cudnn)
+- python 3.7
+- tensorflow 2.7.0
+- tensorflow-gpu 2.7.0
+- keras 2.7.0
+- jamo 0.4.1
+- matplotlib 3.5.1
+- numpy 1.21.6
+- pandas 1.3.5
+
+### [ubuntu 20.04 기본 설정](https://github.com/favorcat/TIL/blob/main/ubuntu/setting.md)
+
 ### Training
 
 1. **한국어 음성 데이터 다운로드**

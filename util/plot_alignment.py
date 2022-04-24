@@ -4,8 +4,8 @@ import matplotlib.font_manager as fm
 import tensorflow as tf
 matplotlib.use('Agg')
 
-
-font_name = fm.FontProperties(fname="c:/Windows/Fonts/malgun.ttf").get_name()
+fm.get_fontconfig_fonts()
+font_name = fm.FontProperties(fname="/usr/share/fonts/truetype/nanum/NanumGothic.ttf").get_name()
 matplotlib.rc('font', family=font_name, size=14)
 
 

@@ -12,9 +12,9 @@ from util.text import sequence_to_text
 
 
 data_dir = './data'
-text_list = glob.glob(os.path.join(data_dir + '/text', '*.npy'))
-mel_list = glob.glob(os.path.join(data_dir + '/mel', '*.npy'))
-dec_list = glob.glob(os.path.join(data_dir + '/dec', '*.npy'))
+text_list = sorted(glob.glob(os.path.join(data_dir + '/text', '*.npy')))
+mel_list = sorted(glob.glob(os.path.join(data_dir + '/mel', '*.npy')))
+dec_list = sorted(glob.glob(os.path.join(data_dir + '/dec', '*.npy')))
 
 fn = os.path.join(data_dir + '/mel_len.npy')
 if not os.path.isfile(fn):

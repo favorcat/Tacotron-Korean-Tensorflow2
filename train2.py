@@ -10,8 +10,8 @@ from util.hparams import *
 
 
 data_dir = './data'
-mel_list = glob.glob(os.path.join(data_dir + '/mel', '*.npy'))
-spec_list = glob.glob(os.path.join(data_dir + '/spec', '*.npy'))
+mel_list = sorted(glob.glob(os.path.join(data_dir + '/mel', '*.npy')))
+spec_list = sorted(glob.glob(os.path.join(data_dir + '/spec', '*.npy')))
 
 fn = os.path.join(data_dir + '/mel_len.py')
 if not os.path.isfile(fn):
